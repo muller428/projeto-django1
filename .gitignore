@@ -1,5 +1,3 @@
-venv
-.mypy_cache
 # Django #
 *.log
 *.pot
@@ -130,3 +128,5 @@ gunicorn-error-log
 db.sqlite3
 db copy.sqlite3
 static/
+# Add again only for this course
+!db.sqlite3
